@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <title>Aufgabe von Benjamin</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Übungsaufgaben</h1>
+    </div>
+    <div>
+      <div class="subHeader">Verlinkungen</div>
+      <p>
+        Es ist keine Schande, nichts zu wissen, wohl aber,<a
+          href="https://www.example.com/"
+          target="_self"
+        >
+          nichts lernen zu wollen.</a
+        >
+    </br>
+    link öffnet in der gleichen Seite
+      </p>
+      <p>
+        Es ist keine Schande, nichts zu wissen, wohl aber,<a
+          href="https://www.example.com/"
+          target="_blank"
+          rel="noopener"
+        >
+          nichts lernen zu wollen.</a
+        >
+      </br>
+      link öffnet eine neuen Tab im Browser
+      </p>
+      <p>
+        Es ist keine Schande, nichts zu wissen, wohl aber,<a
+          href="https://www.example.com/"
+          target="_parent"
+        >
+          nichts lernen zu wollen.</a
+        >
+    </br>
+    link öffnet Elternfenster
+      </p>
+      <p>
+        Es ist keine Schande, nichts zu wissen, wohl aber,<a
+          href="./index.html"
+          target="_popup"
+          onclick="window.open('../index.html','name','width=600,height=400')"
+        >
+          nichts lernen zu wollen.</a
+        >
+    </br>
+    link öffnet Popup Fenster und zeigt Index.html
+      </p>
+    </div>
+    <div class="subHeader">Bildeinfügen</div>
+    <div>
+      <img src="./assets/heart.png" alt="Herz in Roter Farbe" />
+    </div>
+    <div class="subHeader">Bild Link</div>
+    <div>
+      <a href="https://www.example.com/" target="_blank">
+        <img
+          src="./assets/heart.png"
+          alt="Rotes Herz zum Anlicken"
+        />
+      </a>
+    </div>
+  </body>
+</html>

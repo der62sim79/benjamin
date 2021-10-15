@@ -1,0 +1,21 @@
+body{
+    max-width: 900px;
+    margin: auto;
+}
+img{
+    max-height: 300px;
+    width: auto;
+}
+
+a{
+    text-decoration: none;
+}
+.header{
+    font-family: 'Courier New', Courier, monospace;
+}
+.subHeader{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    color: brown;
+    margin-top: 3rem;
+}
